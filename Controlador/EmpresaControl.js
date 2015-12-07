@@ -21,7 +21,6 @@ module.exports = function (router){
 				res.send(empresa);
 			}
 	   	},req.params.id);
-
 	});
 
 	router.post('/empresa', function(req, res) {  
@@ -29,6 +28,8 @@ module.exports = function (router){
 	   		res.send(JSON.stringify(result));
 	   	},req.body);
 	});
+
+
 
 
 };

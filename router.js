@@ -5,6 +5,8 @@ router = express.Router();
 
 require("./Controlador/ClienteControl")(router);
 require("./Controlador/EmpresaControl")(router);
+require("./Controlador/CategoriaControl")(router);
+require("./Controlador/PeticionesControl")(router);
 
 //FIN
 

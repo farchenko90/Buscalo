@@ -5,7 +5,6 @@ module.exports = function (router){
 	   	cliente.getAll(function(lista){
 	   		res.send(lista);
 	   	});
-
 	});
 
 	router.get('/cliente/:id', function(req, res) {  
